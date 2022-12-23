@@ -287,14 +287,14 @@ nonebot2 = ">=2.0.0-rc.1,<3.0.0"
 
 [[package]]
 name = "nonebot-plugin-sqlalchemy"
-version = "0.1.4.post1"
+version = "0.1.5"
 description = ""
 category = "main"
 optional = false
 python-versions = ">=3.9,<4.0"
 
 [package.dependencies]
-nonebot2 = ">=2.0.0-rc.1,<3.0.0"
+nonebot2 = ">=2.0.0-rc.2,<3.0.0"
 sqlalchemy = {version = ">=1.4.42,<2.0.0", extras = ["asyncio"]}
 
 [[package]]
@@ -1022,8 +1022,8 @@ nonebot-plugin-apscheduler = [
     {file = "nonebot_plugin_apscheduler-0.2.0-py3-none-any.whl", hash = "sha256:9285ee84ca1cfa4db73c86cedb5911bbbd25a21ec0cd5f22447cd12f89e48fb4"},
 ]
 nonebot-plugin-sqlalchemy = [
-    {file = "nonebot_plugin_sqlalchemy-0.1.4.post1-py3-none-any.whl", hash = "sha256:cdad86b411dc221645d619855557d4c82b3be1b6937e587bbeb5c8d95f7b2ab3"},
-    {file = "nonebot_plugin_sqlalchemy-0.1.4.post1.tar.gz", hash = "sha256:9ae08e673faa03220ba5914b2d365b3fa1d647677bf77cc0c0520e160f9727ad"},
+    {file = "nonebot_plugin_sqlalchemy-0.1.5-py3-none-any.whl", hash = "sha256:404e751697ea0b8ab076e07049af6d0cb7688bf4f689706078af34d4ed736802"},
+    {file = "nonebot_plugin_sqlalchemy-0.1.5.tar.gz", hash = "sha256:148caa0462d6ee0a8cdeb500320524262119b4e9d035b9675fdfbf91ad3238ae"},
 ]
 nonebot2 = [
     {file = "nonebot2-2.0.0rc2-py3-none-any.whl", hash = "sha256:ec09a1df5b33371d13b80cbe21b975bbf3e6b2caa5d690fac924b1c6aaae6c70"},
